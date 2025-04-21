@@ -1,0 +1,144 @@
+.ch{font-size:40px; font-family:verdana; padding: 20px; margin:0px; background-color: #000C0E; color: white; text-align:center; }
+
+			 body { font-size: 28px; margin: 0; } 
+			 
+			 ul {
+			 list-style-type: none;
+			 margin: 0; 
+			 padding: 0;
+			 overflow: hidden;
+			 background-color: #890016;
+			 position: sticky; 
+			 top: 0;
+			} 
+			
+			 li { float: left; } 
+			 
+			 li a { 
+			 display: block; 
+			 color: white; 
+			 text-align: center; 
+			 padding: 14px 16px; 
+			 text-decoration: none;
+			 } 
+			 
+			 li a:hover { background-color: #BA002B; }
+
+			 .cont{
+				margin:10px;
+				text-align:justify;
+				font-size:25px;
+			 }
+			 
+			 
+		.ch{
+			font-size: 40px;
+			font-family: verdana;
+			padding: 20px;
+			width: 100%;
+			margin: 10px 0px 10px 0px;
+			background-color: #000C0E;
+			color: white;
+			text-align: center;
+
+		}
+
+		body {
+			margin: 0;
+		}
+		div.gallery {
+			border:1px solid #ccc;
+			box-shadow: 2px 8px 10px rgb(0, 0, 0, 0.2);
+
+		}
+		div.gallery:hover{
+			border: 1px solid #777;
+			transform: scale(1.1);
+			animation: rotate 3s linear infinite;
+
+		}
+		@keyframes rotate{
+			0% { transform: 
+				rotate(0deg)
+
+			}
+		}
+		div.gallery img {
+			width: 100%;
+			height: auto;
+
+		}
+		.desc {
+			color: red;
+			padding: 15px;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+			font-family: verdana;
+			background-color: rgb(0, 0, 0, 0.9);
+		}
+		*{ box-sizing: border-box; 
+		}
+		.responsive {
+			padding: 0 6px;
+			float: left;
+			width: 24.99999%;
+			margin-bottom: 10px;
+		}
+		@media only screen and (max-width: 00px){
+			.responsive{
+				width: 49.99999%;
+				margin: 6px 0;
+			}
+		}
+		@media only screen and (max-width:500px){
+			.responsive{
+				width: 100%;
+			}
+		}
+		.clearfix:after { 
+			 content:""; 
+			 display: table;
+			 clear: both;
+			  }
+
+		.dd{    font-size:20px;
+	            padding: 10px; 
+				width:25%; 
+				border-left:10px solid red;
+				 margin: auto;
+
+				}
+				.dd:hover{
+			background-color: purple;
+		}
+
+			.dk{
+				color:yellow;
+			}
+			.ch:hover{
+				background-color: green;
+			}
+			
+			
+			
+
+			h3 {
+				text-align: center;
+				color: white;
+				font-size: 50px;
+				background-color: blue;
+				margin: 0px;
+				padding: 0px;
+			}
+			.mijan video{
+				width: 325px;
+				height: 410px;
+				margin: 0;
+				padding: 0;
+                border-radius: 5px;
+                border: solid 3px black;
+
+			}
+			
